@@ -198,8 +198,8 @@ export default {
               <p v-else-if="item.importance === 'high'" class="high">高</p>
             </td>
             <td>
-              <button type="button" class="editBtn">
-                <img src="@/assets/img/icon/pen.png" alt="" @click="editTodoitem(item.id)">
+              <button type="button" class="editBtn" @click="editTodoitem(item.id)">
+                <img src="@/assets/img/icon/pen.png" alt="">
               </button>
             </td>
             <td>
